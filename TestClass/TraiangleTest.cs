@@ -37,60 +37,60 @@ namespace TriangleTest
                 Assert.AreEqual(expected, actual);
             }
 
-            ////Three(3) tests for a valid isosceles triangle
-            //[Test]
-            
-            //public void ValidIsoscelesTriangle_Input3and3and4_OutputValidIsoscelesTriangle() //test 2
-            //{
-            //    //Arrange
-            //    int firstSide = 3;
-            //    int secondSide = 3;
-            //    int thirdSide = 4;
+            //Three(3) tests for a valid isosceles triangle
+            [Test]
 
-            //    string expected = "Based on two sides being equal, the type of triangle is an ISOSCELES";
+            public void ValidIsoscelesTriangle_Input3and3and4_OutputValidIsoscelesTriangle() //test 2
+            {
+                //Arrange
+                int firstSide = 3;
+                int secondSide = 3;
+                int thirdSide = 4;
 
-            //    //Act
-            //    string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+                string expected = "Based on two sides being equal, the type of triangle is an ISOSCELES";
 
-            //    //Assert
-            //    Assert.AreEqual(expected, actual);
-            //}
+                //Act
+                string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
 
-            //[Test]
+                //Assert
+                Assert.AreEqual(expected, actual);
+            }
 
-            //public void ValidIsoscelesTriangle_Input3and4and3_OutputValidIsoscelesTriangle()//test 3
-            //{
-            //    //Arrange
-            //    int firstSide = 3;
-            //    int secondSide = 4;
-            //    int thirdSide = 3;
+            [Test]
 
-            //    string expected = "Based on two sides being equal, the type of triangle is an ISOSCELES";
+            public void ValidIsoscelesTriangle_Input3and4and3_OutputValidIsoscelesTriangle()//test 3
+            {
+                //Arrange
+                int firstSide = 3;
+                int secondSide = 4;
+                int thirdSide = 3;
 
-            //    //Act
-            //    string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+                string expected = "Based on two sides being equal, the type of triangle is an ISOSCELES";
 
-            //    //Assert
-            //    Assert.AreEqual(expected, actual);
-            //}
+                //Act
+                string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
 
-            //[Test]
+                //Assert
+                Assert.AreEqual(expected, actual);
+            }
 
-            //public void ValidIsoscelesTriangle_Input4and3ang3_OutputValidIsoscelesTriangle() // test 4
-            //{
-            //    //Arrange
-            //    int firstSide = 4;
-            //    int secondSide = 3;
-            //    int thirdSide = 3;
+            [Test]
 
-            //    string expected = "Based on two sides being equal, the type of triangle is an ISOSCELES";
+            public void ValidIsoscelesTriangle_Input4and3ang3_OutputValidIsoscelesTriangle() // test 4
+            {
+                //Arrange
+                int firstSide = 4;
+                int secondSide = 3;
+                int thirdSide = 3;
 
-            //    //Act
-            //    string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+                string expected = "Based on two sides being equal, the type of triangle is an ISOSCELES";
 
-            //    //Assert
-            //    Assert.AreEqual(expected, actual);
-            //}
+                //Act
+                string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+                //Assert
+                Assert.AreEqual(expected, actual);
+            }
 
             ////Five (5) tests for a valid scalene triangle
             //[Test]
