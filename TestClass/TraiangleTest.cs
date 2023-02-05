@@ -185,115 +185,115 @@ namespace TriangleTest
                 Assert.AreEqual(expected, actual);
             }
 
-            ////Three (3) tests for verifying a zero length for one or more sides
-            //[Test]
+            //Three (3) tests for verifying a zero length for one or more sides
+            [Test]
 
-            //public void InvalidZeroLengthTriangle_Input0and4and5_OutputInvalidTriangle() // test 10
-            //{
-            //    //Arrange
-            //    int firstSide = 0;
-            //    int secondSide = 4;
-            //    int thirdSide = 5;
+            public void InvalidZeroLengthTriangle_Input0and4and5_OutputInvalidTriangle() // test 10
+            {
+                //Arrange
+                int firstSide = 0;
+                int secondSide = 4;
+                int thirdSide = 5;
 
-            //    string expected = "At least one side of your triangle has a zero length and is thus invalid";
+                string expected = "At least one side of your triangle has a zero length and is thus invalid";
 
-            //    //Act
-            //    string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+                //Act
+                string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
 
-            //    //Assert
-            //    Assert.AreEqual(expected, actual);
-            //}
+                //Assert
+                Assert.AreEqual(expected, actual);
+            }
 
-            //[Test]
+            [Test]
 
-            //public void InvalidZeroLengthTriangle_Input0and0and5_OutputInvalidTriangle() // test 11
-            //{
-            //    //Arrange
-            //    int firstSide = 0;
-            //    int secondSide = 0;
-            //    int thirdSide = 5;
+            public void InvalidZeroLengthTriangle_Input0and0and5_OutputInvalidTriangle() // test 11
+            {
+                //Arrange
+                int firstSide = 0;
+                int secondSide = 0;
+                int thirdSide = 5;
 
-            //    string expected = "At least one side of your triangle has a zero length and is thus invalid";
+                string expected = "At least one side of your triangle has a zero length and is thus invalid";
 
-            //    //Act
-            //    string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+                //Act
+                string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
 
-            //    //Assert
-            //    Assert.AreEqual(expected, actual);
-            //}
+                //Assert
+                Assert.AreEqual(expected, actual);
+            }
 
-            //[Test]
+            [Test]
 
-            //public void InvalidZeroLengthTriangle3_Input0and0and0_OutputInvalidTriangle() // test 12
-            //{
-            //    //Arrange
-            //    int firstSide = 0;
-            //    int secondSide = 0;
-            //    int thirdSide = 0;
+            public void InvalidZeroLengthTriangle3_Input0and0and0_OutputInvalidTriangle() // test 12
+            {
+                //Arrange
+                int firstSide = 0;
+                int secondSide = 0;
+                int thirdSide = 0;
 
-            //    string expected = "At least one side of your triangle has a zero length and is thus invalid";
+                string expected = "At least one side of your triangle has a zero length and is thus invalid";
 
-            //    //Act
-            //    string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+                //Act
+                string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
 
-            //    //Assert
-            //    Assert.AreEqual(expected, actual);
-            //}
+                //Assert
+                Assert.AreEqual(expected, actual);
+            }
 
-            ////Three (3) tests for verifying an invalid response (other than a zero length)
-            //[Test]
+            //Three (3) tests for verifying an invalid response (other than a zero length)
+            [Test]
 
-            //public void InvalidLengthTriangle_Input3and4and8_OutputInvalidTriangle() // test 13
-            //{
-            //    //Arrange
-            //    int firstSide = 3;
-            //    int secondSide = 4;
-            //    int thirdSide = 8;
+            public void InvalidLengthTriangle_Input3and4and8_OutputInvalidTriangle() // test 13
+            {
+                //Arrange
+                int firstSide = 3;
+                int secondSide = 4;
+                int thirdSide = 8;
 
-            //    string expected = "Based on the values entered, the triangle is INVALID";
+                string expected = "Based on the values entered, the triangle is INVALID";
 
-            //    //Act
-            //    string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+                //Act
+                string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
 
-            //    //Assert
-            //    Assert.AreEqual(expected, actual);
-            //}
+                //Assert
+                Assert.AreEqual(expected, actual);
+            }
 
-            //[Test]
+            [Test]
 
-            //public void InvalidLengthTriangle_Input8and4and3_OutputInvalidTriangle() // test 14
-            //{
-            //    //Arrange
-            //    int firstSide = 8;
-            //    int secondSide = 4;
-            //    int thirdSide = 3;
+            public void InvalidLengthTriangle_Input8and4and3_OutputInvalidTriangle() // test 14
+            {
+                //Arrange
+                int firstSide = 8;
+                int secondSide = 4;
+                int thirdSide = 3;
 
-            //    string expected = "Based on the values entered, the triangle is INVALID";
+                string expected = "Based on the values entered, the triangle is INVALID";
 
-            //    //Act
-            //    string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+                //Act
+                string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
 
-            //    //Assert
-            //    Assert.AreEqual(expected, actual);
-            //}
+                //Assert
+                Assert.AreEqual(expected, actual);
+            }
 
-            //[Test]
+            [Test]
 
-            //public void InvalidLengthTriangle_Input3and8and4_OutputInvalidTriangle() // test 15
-            //{
-            //    //Arrange
-            //    int firstSide = 3;
-            //    int secondSide = 8;
-            //    int thirdSide = 4;
+            public void InvalidLengthTriangle_Input3and8and4_OutputInvalidTriangle() // test 15
+            {
+                //Arrange
+                int firstSide = 3;
+                int secondSide = 8;
+                int thirdSide = 4;
 
-            //    string expected = "Based on the values entered, the triangle is INVALID";
+                string expected = "Based on the values entered, the triangle is INVALID";
 
-            //    //Act
-            //    string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+                //Act
+                string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
 
-            //    //Assert
-            //    Assert.AreEqual(expected, actual);
-            //}
+                //Assert
+                Assert.AreEqual(expected, actual);
+            }
 
         }
     }
